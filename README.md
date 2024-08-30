@@ -32,24 +32,8 @@ Copy code
 ./sudoku
 The game will launch and generate a random Sudoku puzzle. You can choose whether to solve it or exit the program.
 
-Example
-Here is an example of how the Sudoku grid looks when printed in the terminal:
 
-lua
-Copy code
-  -------------------------
- | 5 3   | 6   8 | 9 1 2 |
- |   7 1 |   9 5 | 3   4 |
- | 6 8 2 | 1   4 | 7 5   |
-  -------------------------
- | 3   5 |   8   |   6 7 |
- | 8 2   | 7   6 | 5 9 1 |
- | 7   6 | 9 1 3 | 8   4 |
-  -------------------------
- | 9   4 | 3   7 | 2 8   |
- | 4   8 | 5 2 9 |   7 6 |
- | 1 6 7 |   4 8 |   3 5 |
-  -------------------------
+
 When solving the puzzle, the algorithm fills the grid in real-time, and the user can see the numbers being placed step by step.
 
 Customization
