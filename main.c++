@@ -32,10 +32,10 @@ void setCursorPosition(int x, int y) {
     SetConsoleCursorPosition(hOut, coord);
 }
 
-void sleep(int miliseconds) {
-    this_thread::sleep_for (std::chrono::milliseconds(miliseconds));
-}
 
+void sleep(int milliseconds) {
+    Sleep(milliseconds);  
+}
 
 void printPuzzle(int puzzle[PUZZLE_SIZE][PUZZLE_SIZE], bool clear = true)
 {
